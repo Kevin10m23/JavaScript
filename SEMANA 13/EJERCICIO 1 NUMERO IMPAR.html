@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CICLO FOR NUM IMPAR</title>
+</head>
+<body>
+    <center>
+        <h2>GENERACION DE NUMEROS IMPARES</h2>
+        <h3>CICLO POR</h3>
+        <Script>
+            //PROGRAMA QUE GENERAS NUMEROSD PARES DESPENDIENDO DE UN RANGO SELCCIONADO 
+            //Variables 
+            let inico,final;//Variables del ciclo for 
+            let num=0;//Variable que contador de numeros pares generados
+            //Entrada
+            inicio=parseInt(prompt("Ingrese numero inical de rango.."));
+            final=parseInt(prompt("Ingrese número final del rango"));
+            //Proceso Ciclo -For
+            for (f=inicio;f<=final;f++){
+                //Condicional para validar numero impar
+                if(f%2==1){
+                    document.write("<br>");
+                    document.write("NUMERO IMPAR..."+f+"<br>");
+                    num++;//contrador de numeros impares 
+                }
+            }
+            //SALIDA
+            document.write("<br>");
+            document.write("TOTAL DE NUMEROS PARES GENERADOS..."+num+"<br>");
+        </Script>
+    </center>
+</body>
+</html>
